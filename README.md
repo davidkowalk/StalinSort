@@ -7,3 +7,12 @@ A pure python implementation for Stalin-Sort
 ## Algorithm
 
 The algorithm starts with an unsorted list. It then iterates down the list and tests each element on whether it is in order. Any element that is out of order is eliminated. At the end you have a sorted list.
+
+## Example
+
+```python
+>>> import stalinsort
+>>> l = [3, 2, 5, 7, 1, 3]
+>>> stalinsort.sort(l)
+[3, 2, 1]
+```
