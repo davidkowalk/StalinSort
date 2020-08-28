@@ -13,6 +13,6 @@ The algorithm starts with an unsorted list. It then iterates down the list and t
 ```python
 >>> import stalinsort
 >>> l = [3, 2, 5, 7, 1, 3]
->>> stalinsort.sort(l)
-[3, 2, 1]
+>>> stalinsort.sort(l, sort_min_max = True)
+[1, 2, 3, 7]
 ```
